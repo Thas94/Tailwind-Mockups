@@ -2,7 +2,7 @@
     <section>
         <ZiziLuxZiziNavbar />
     </section>
-    <section class="mt-20">
+    <section >
         <ZiziLuxZiziMain />
     </section>
     <section>
