@@ -24,13 +24,18 @@
                 <div class="items-center pt-5">
                     <ul>
                         <li class="text-white p-2 hover:text-menu-hover max-sm:text-sm flex items-center"
-                            v-for="m in menu">
-                            <div class="bg-white w-0.5 h-3 mr-2"></div>
+                            v-for="(m, i) in menu">
+                            <div class="bg-white w-0.5 h-3 mr-2" v-if="i > 0"></div>
                             {{ (m as any).label }}
                         </li>
                     </ul>
                 </div>
-
+                <div class="items-center py-28 p-1 text-white">
+                    CRAFTING LUXURY, BUILDING DREAMS
+                </div>
+                <div class="text-white w-40">
+                    <p class="text-center text-[8pt]">Copyright © 2024 Azizi Luxury Developments. All rights reserved.</p>
+                </div>
             </div>
         </nav>
     </div>
