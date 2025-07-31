@@ -6,10 +6,10 @@ export default {
       colors: {
         "menu-hover": "#AEB4A1"
       },
-      // fontFamily: {
-      //   Montserrat: "Montserrat, sans-serif",
-      //   frank: "Frank Ruhl Libre, 'serif"
-      // },
+      fontFamily: {
+        Montserrat: "Montserrat, sans-serif",
+         frank: "Frank Ruhl Libre, serif"
+      },
       container: {
         center: true,
         padding: "2rem",

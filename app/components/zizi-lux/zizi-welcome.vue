@@ -3,7 +3,7 @@
         class="relative w-full h-[70vh] md:h-screen bg-center bg-cover bg-no-repeat bg-[url('/azizi/house-design.jpg')] text-white">
         <div class="flex items-center justify-center mt-0 flex-col bg-black/50">
             <div class="w-[600px] h-32 flex items-center justify-center">
-                <h2 class="text-xl md:text-[25pt] lg:text-[35pt] font-semibold text-center">Welcome to <br> Azizi Luxury
+                <h2 class="text-xl md:text-[25pt] lg:text-[35pt] font-semibold text-center font-frank">Welcome to <br> Azizi Luxury
                     Developments</h2>
             </div>
             <div class="w-[75%] h-32 flex items-center justify-center">
