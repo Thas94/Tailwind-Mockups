@@ -20,5 +20,17 @@ export const MenuService = {
             label: "Contact Us",
             to: ""
         }]
+    },
+
+    getExploreImages(){
+        return [{
+            src: "/azizi/house1.jpg"
+        },
+        {
+            src: "/azizi/house2.jpg"
+        },
+        {
+            src: "/azizi/house3.jpg"
+        }]
     }
 }

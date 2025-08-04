@@ -1,9 +1,9 @@
 <template>
-<div class="text-center">
-  <h2 class="text-2xl font-semibold">Features</h2>
-  <div class="mx-auto mt-2 w-24 h-1 bg-blue-600 rounded"></div>
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+  <img src="/azizi/house1.jpg" class="w-20 h-50" />
+  <img src="/azizi/house2.jpg" class="w-50 h-50" />
+  <img src="/azizi/house3.jpg" class="w-50 h-50" />
 </div>
-
 
 </template>
 

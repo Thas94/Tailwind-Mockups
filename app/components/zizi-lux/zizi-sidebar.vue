@@ -17,8 +17,8 @@
                 <div class="items-center pt-5">
                     <ul>
                         <li class="text-white p-2 hover:text-menu-hover max-sm:text-sm flex items-center"
-                            v-for="(m, i) in menu">
-                            <div class="bg-white w-0.5 h-3 mr-2" v-if="i > 0"></div>
+                            v-for="(m, i) in MenuService.getMenuList()">
+                            <div class="bg-white w-0.5 h-3 mr-2"></div>
                             {{ (m as any).label }}
                         </li>
                     </ul>
@@ -43,8 +43,8 @@ const closeMenu = () => {
 }
 const menu = ref([{}])
 onMounted(() => {
-    MenuService.getMenuList().forEach((x) => {
-        menu.value.push(x)
-    })
+    // MenuService.getMenuList().forEach((x) => {
+    //     menu.value.push(x)
+    // })
 })
 </script>
