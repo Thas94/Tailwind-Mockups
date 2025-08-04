@@ -13,9 +13,9 @@
                     quality, elegance, and a lavish lifestyle for every resident.</p>
             </div>
             <div class="mt-10">
-                <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3">
+                <div class="grid grid-cols-3">
                     <div v-for="(img, i) in MenuService.getExploreImages()">
-                        <NuxtImg sizes="xs:100vw sm:50vw lg:400px" :src="(img as any).src" />
+                        <NuxtImg class="max-sm:w-[150px] w-[450px]" :src="(img as any).src" />
                     </div>
                 </div>
             </div>

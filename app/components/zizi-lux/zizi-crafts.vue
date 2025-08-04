@@ -14,7 +14,7 @@
             <div class="mt-10">
                 <div class="grid grid-cols-1 md:lg:grid-cols-2 gap-x-14 gap-y-10 rounded-full">
                     <div v-for="(img, i) in MenuService.getCraftImages()">
-                        <NuxtImg sizes="xs:100vw sm:300vw lg:600px" class="rounded-md" :src="(img as any).src" />
+                        <NuxtImg class="rounded-md max-sm:w-[350px]" :src="(img as any).src" />
                     </div>
                 </div>
             </div>
