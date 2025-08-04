@@ -4,7 +4,7 @@
             <div class="w-[600px] h-32 flex mt-10 max-sm:mt-2 justify-center">
                 <div class="sm:text-lg md:text-3xl lg:text-5xl text-center">
                     <p class="">Explore Our Crafted Projects</p>
-                    <div class="mx-auto mt-5 w-11/12 h-1 bg-menu-hover rounded"></div>
+                    <div class="mx-auto mt-5 w-11/12 h-px bg-menu-hover rounded"></div>
                 </div>
             </div>
             <div class="w-[60%] text-xl max-sm:text-[10pt] text-center max-sm:-mt-10">

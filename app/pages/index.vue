@@ -1,9 +1,22 @@
 <template>
-<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-  <img src="/azizi/house1.jpg" class="w-20 h-50" />
-  <img src="/azizi/house2.jpg" class="w-50 h-50" />
-  <img src="/azizi/house3.jpg" class="w-50 h-50" />
+<div class="flex items-center justify-center h-screen px-4">
+  <!-- Left Content -->
+  <div class="w-1/2 p-4 text-center">
+    <h2 class="text-xl font-bold mb-2">Left Side</h2>
+    <p class="text-gray-600">Some content here.</p>
+  </div>
+
+  <!-- Vertical Divider -->
+  <div class="w-px h-48 bg-gray-300 mx-6"></div>
+
+  <!-- Right Content -->
+  <div class="w-1/2 p-4 text-center">
+    <h2 class="text-xl font-bold mb-2">Right Side</h2>
+    <p class="text-gray-600">More content here.</p>
+  </div>
 </div>
+
+
 
 </template>
 

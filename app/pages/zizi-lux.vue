@@ -15,6 +15,9 @@
         <ZiziLuxZiziCrafts />
     </section>
     <section>
+        <ZiziLuxZiziDreamBuild />
+    </section>
+    <section>
         <ZiziLuxZiziFooter />
     </section>
 </template>
