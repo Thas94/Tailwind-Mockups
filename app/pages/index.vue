@@ -1,22 +1,27 @@
 <template>
-<div class="flex items-center justify-center h-screen px-4">
-  <!-- Left Content -->
-  <div class="w-1/2 p-4 text-center">
-    <h2 class="text-xl font-bold mb-2">Left Side</h2>
-    <p class="text-gray-600">Some content here.</p>
-  </div>
+<div class="flex min-h-screen">
+  <!-- Sidebar -->
+  <aside class="w-64 bg-gray-800 text-white hidden md:flex flex-col justify-between">
+    <div>
+      <div class="p-4 text-xl font-bold">MyApp</div>
+      <nav class="px-4 space-y-2">
+        <a href="#" class="block py-2 px-3 rounded hover:bg-gray-700">Dashboard</a>
+        <a href="#" class="block py-2 px-3 rounded hover:bg-gray-700">Profile</a>
+        <a href="#" class="block py-2 px-3 rounded hover:bg-gray-700">Settings</a>
+      </nav>
+    </div>
+    <!-- Footer -->
+    <div class="p-4 text-sm text-gray-400 border-t border-gray-700">
+      © 2025 MyApp. All rights reserved.
+    </div>
+  </aside>
 
-  <!-- Vertical Divider -->
-  <div class="w-px h-48 bg-gray-300 mx-6"></div>
-
-  <!-- Right Content -->
-  <div class="w-1/2 p-4 text-center">
-    <h2 class="text-xl font-bold mb-2">Right Side</h2>
-    <p class="text-gray-600">More content here.</p>
-  </div>
+  <!-- Main Content -->
+  <main class="flex-1 bg-gray-100 p-6">
+    <h1 class="text-2xl font-semibold mb-4">Welcome to MyApp</h1>
+    <p>This is your main content area. Resize the window to see the responsive sidebar in action.</p>
+  </main>
 </div>
-
-
 
 </template>
 
