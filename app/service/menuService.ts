@@ -32,5 +32,20 @@ export const MenuService = {
         {
             src: "/azizi/house3.jpg"
         }]
+    },
+    getCraftImages(){
+        return [{
+            src: "/azizi/craft1.jpg"
+        },
+        {
+            src: "/azizi/craft2.jpg"
+        },
+        {
+            src: "/azizi/craft3.jpg"
+        }
+        ,
+        {
+            src: "/azizi/craft4.jpg"
+        }]
     }
 }
