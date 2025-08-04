@@ -1,7 +1,7 @@
 <template>
     <nav class="bg-black fixed top-0 w-full z-20">
         <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between text-white">
-            <NuxtLink to="zizi-lux" class="">
+            <NuxtLink to="/" class="">
                 <NuxtImg class="h-20 w-40" densities="1px" format="webp" src="/azizi/logo.png" alt="" />
             </NuxtLink>
             <ul class="hidden gap-6 ml-auto text-white text-xl hover:cursor-pointer md:flex">
